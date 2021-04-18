@@ -8,24 +8,24 @@ int main()
 {
     for(;;)
     {
-        int a;
-        int b;
-        int wynik;
-        int pods;
-        int h;
-        int wynik2;
-        int t;
+        float a;
+        float b;
+        float wynik;
+        float pods;
+        float h;
+        float wynik2;
+        float t;
         printf("Objetosc prostopadloscianu\n");
 
 
     printf("wprowadz dlugosc boku a\n");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("wprowadz dlugosc boku b\n");
-    scanf("%d", &b);
+    scanf("%f", &b);
     printf("wprowadz wysokosc h\n");
-    scanf("%d", &h);
+    scanf("%f", &h);
     wynik = a*b*h;
-    printf("wynik=" "%d\n", wynik);
+    printf("wynik=" "%f\n", wynik);
 
     return 0;
     }
