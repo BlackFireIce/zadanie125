@@ -13,6 +13,7 @@ printf("wybierz operacje\n");
 printf("1.objetosc prostopadloscianu\n");
 printf("2.objetosc ostroslupa prawidlowego czworokatnego\n");
 printf("3. wyjscie\n");
+fflush (stdin);
 scanf("%d", &c);
 switch (c)
 
